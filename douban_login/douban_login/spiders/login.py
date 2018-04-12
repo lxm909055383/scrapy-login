@@ -24,7 +24,7 @@ class LoginSpider(scrapy.Spider):
             formdata = {
                 "source": "index_nav",
                 "form_email": "909055383@qq.com",
-                "form_password": "Lxm941202db",
+                "form_password": "***",
             }
         else:
             print("登录时有验证码")
@@ -43,7 +43,7 @@ class LoginSpider(scrapy.Spider):
                 "source": "None",
                 "redir": "https://www.douban.com",
                 "form_email": "909055383@qq.com",
-                "form_password": "Lxm941202db",
+                "form_password": "***",
                 "captcha-solution": captcha_solution,
                 "captcha-id": captcha_id,
                 "login": "登录",
